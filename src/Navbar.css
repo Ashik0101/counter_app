@@ -1,0 +1,21 @@
+.container {
+  width: 35%;
+  height: 40px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(19, 38, 245);
+}
+.container > div {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-link:hover {
+  color: black;
+}
